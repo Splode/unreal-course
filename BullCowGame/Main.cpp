@@ -45,7 +45,7 @@ string GetGuess () {
 bool AskToPlayAgain () {
 	string Response = "";
 
-	cout << "Would you like to play again? ";
+	cout << "\nWould you like to play again? ";
 	getline(cin, Response);
-	return true;
+	return (Response[0] == 'y' || Response[0] == 'Y');
 }
