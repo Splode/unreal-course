@@ -1,5 +1,4 @@
 #include "FBullCowGame.h"
-#include <iostream>
 
 using FString = std::string;
 using int32 = int;
